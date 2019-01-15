@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/token_sale_dapp/static/js/runtime~main.d149d605.js"
   },
   {
-    "revision": "e96af95310fd6d3d6903",
-    "url": "/token_sale_dapp/static/js/main.e96af953.chunk.js"
+    "revision": "52787aac74b0d94855b3",
+    "url": "/token_sale_dapp/static/js/main.52787aac.chunk.js"
   },
   {
     "revision": "2685fd4044723b38bdb2",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/token_sale_dapp/static/css/1.d4a521cb.chunk.css"
   },
   {
-    "revision": "952063c958182b10e227d44b3750273d",
+    "revision": "f4abad51f9287bc73ad343d66b663f63",
     "url": "/token_sale_dapp/index.html"
   }
 ];
