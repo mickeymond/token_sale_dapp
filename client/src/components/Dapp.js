@@ -101,7 +101,7 @@ class Dapp extends Component {
     
     render() {
         const {
-            name, symbol, priceInEther, clientTokens, availableTokens, admin, percentageSold, tokensSold, message
+            name, symbol, priceInEther, clientTokens, availableTokens, admin, percentageSold, tokensSold
         } = this.state;
         return (
             <div>
@@ -116,6 +116,9 @@ class Dapp extends Component {
                     </div>
                 </div>
                 <p className="mt-3">{tokensSold} / 750000 tokens sold.</p>
+                <div className="alert alert-primary" role="alert">
+                    This token sale uses the Ropsten Test Network with fake ether. Use a browser extension like Metamask to connect to the test network and participate in the ICO. Please be patient if the test network runs slowly.
+                </div>
             </div>
         );
     }
