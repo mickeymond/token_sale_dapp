@@ -1,0 +1,9 @@
+.secret
+build
+node_modules
+package.lock.json
+yarn.lock
+truffle-config.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log
