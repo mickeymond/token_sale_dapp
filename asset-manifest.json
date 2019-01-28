@@ -1,6 +1,6 @@
 {
-  "main.js": "/token_sale_dapp/static/js/main.1338d5fb.chunk.js",
-  "main.js.map": "/token_sale_dapp/static/js/main.1338d5fb.chunk.js.map",
+  "main.js": "/token_sale_dapp/static/js/main.dad16e99.chunk.js",
+  "main.js.map": "/token_sale_dapp/static/js/main.dad16e99.chunk.js.map",
   "static/css/1.d4a521cb.chunk.css": "/token_sale_dapp/static/css/1.d4a521cb.chunk.css",
   "static/js/1.2685fd40.chunk.js": "/token_sale_dapp/static/js/1.2685fd40.chunk.js",
   "static/js/1.2685fd40.chunk.js.map": "/token_sale_dapp/static/js/1.2685fd40.chunk.js.map",
@@ -8,6 +8,6 @@
   "runtime~main.js.map": "/token_sale_dapp/static/js/runtime~main.d149d605.js.map",
   "static/css/1.d4a521cb.chunk.css.map": "/token_sale_dapp/static/css/1.d4a521cb.chunk.css.map",
   "index.html": "/token_sale_dapp/index.html",
-  "precache-manifest.2e6f6cc706ebc746750bb0e40a0f5c98.js": "/token_sale_dapp/precache-manifest.2e6f6cc706ebc746750bb0e40a0f5c98.js",
+  "precache-manifest.1bfd3ea6dbef6fdd4aa3e31469298cbf.js": "/token_sale_dapp/precache-manifest.1bfd3ea6dbef6fdd4aa3e31469298cbf.js",
   "service-worker.js": "/token_sale_dapp/service-worker.js"
 }
