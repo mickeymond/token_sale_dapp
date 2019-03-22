@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { DrizzleContext } from 'drizzle-react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'semantic-ui-css/semantic.min.css'
 import 'toastr/build/toastr.min.css'
 
-import Header from './components/Header';
-import Dapp from './components/Dapp';
+import TokenSale from './components/TokenSale';
 import Spinner from './components/Spinner';
-import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -35,24 +33,12 @@ class App extends Component {
           }
     
           return (
-            <div>
-              <Header />
-              <div
-                className="container text-center"
-                style={{ marginTop: "150px" }}
-              >
-                <Dapp
-                  drizzle={drizzle}
-                  drizzleState={drizzleState}
-                  showLoader={this.showLoader.bind(this)}
-                  hideLoader={this.hideLoader.bind(this)}
-                />
-              </div>
-              <Footer
-                drizzle={drizzle}
-                drizzleState={drizzleState}
-              />
-            </div>
+            <TokenSale
+              drizzle={drizzle}
+              drizzleState={drizzleState}
+              showLoader={this.showLoader.bind(this)}
+              hideLoader={this.hideLoader.bind(this)}
+            />
           );
         }}
       </DrizzleContext.Consumer>

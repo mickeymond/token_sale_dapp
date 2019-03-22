@@ -4,12 +4,13 @@
   "private": true,
   "homepage": "http://mickeymond.github.io/token_sale_dapp",
   "dependencies": {
-    "bootstrap": "^4.2.1",
     "drizzle": "^1.2.4",
     "drizzle-react": "^1.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.85.0",
     "toastr": "^2.1.4"
   },
   "scripts": {
